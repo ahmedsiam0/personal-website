@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gsoc on Ahmed Siam</title><link>https://ahmedsiam0.github.io/personal-website/tags/gsoc/</link><description>Recent content in Gsoc on Ahmed Siam</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 27 Aug 2022 23:08:14 +0000</lastBuildDate><atom:link href="https://ahmedsiam0.github.io/personal-website/tags/gsoc/index.xml" rel="self" type="application/rss+xml"/><item><title>GSoC 2023 Report: Internationalization of Apertium Tools</title><link>https://ahmedsiam0.github.io/personal-website/p/gsoc-2023-report-internationalization-of-apertium-tools/</link><pubDate>Sat, 27 Aug 2022 23:08:14 +0000</pubDate><guid>https://ahmedsiam0.github.io/personal-website/p/gsoc-2023-report-internationalization-of-apertium-tools/</guid><description>&lt;img src="https://ahmedsiam0.github.io/personal-website/p/gsoc-2023-report-internationalization-of-apertium-tools/cover.png" alt="Featured image of post GSoC 2023 Report: Internationalization of Apertium Tools" />&lt;p>This project aims to &lt;a class="link" href="https://en.wikipedia.org/wiki/Internationalization_and_localization" target="_blank" rel="noopener"
+>internationalize&lt;/a> Apertium tools so that they can be &lt;a class="link" href="https://en.wikipedia.org/wiki/Internationalization_and_localization" target="_blank" rel="noopener"
+>localized&lt;/a> easily to other languages, which makes usage of Apertium tools easier for non-English users. I have done this by building and using a &lt;a class="link" href="https://github.com/apertium/icuformat" target="_blank" rel="noopener"
+>library&lt;/a> that wraps &lt;a class="link" href="https://icu.unicode.org/#h.i33fakvpjb7o" target="_blank" rel="noopener"
+>ICU4C&lt;/a>, which supports Unicode and internationalization.&lt;/p>
+&lt;h2 id="background">Background
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Apertium is a rule-based machine translation toolchain and ecosystem.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Apertium tools were hard-coded as English only.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="achieved-goals">Achieved Goals
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Internationalized Apertium tools.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assigned codes to error/warning messages for easy search online.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Created a wiki page for each warning/error in the &lt;a class="link" href="https://wiki.apertium.org/wiki/Category:Error_Codes" target="_blank" rel="noopener"
+>Apertium wiki&lt;/a> (except for apertium-recursive and lexd repos).&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="future-goals">Future Goals
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Make wiki pages for apertium-recursive and lexd errors/warnings&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>More testing.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Simplify code and rephrase messages to be more useful.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Help in adding languages other than English (&lt;a class="link" href="https://en.wikipedia.org/wiki/Internationalization_and_localization" target="_blank" rel="noopener"
+>Localization&lt;/a>).&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="source-code">Source Code
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://apertium.projectjj.com/gsoc2023/ahmedsiam0.html" target="_blank" rel="noopener"
+>https://apertium.projectjj.com/gsoc2023/ahmedsiam0.html&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
